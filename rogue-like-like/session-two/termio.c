@@ -16,17 +16,6 @@ static int _initd  = -1;
 // TODO: This should actually be char ** and instead be
 // complimented with a bitmask buffer for color
 static char ***_buffer = NULL;
-static char **_buffer;
-static size_t **_flag;
-
-// BOLD  = 2
-// RED = 1
-// GREEN = 4
-//
-// 00
-// BOLD | RED | GREEN
-// 10 | 01 | 100
-// 111
 
 int termio_init()
 {
