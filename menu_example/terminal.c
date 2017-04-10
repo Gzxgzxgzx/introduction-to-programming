@@ -5,8 +5,8 @@
  */
 #include "terminal.h"
 
-#include <cstdio>
-#include <cstdlib>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * @clear - Clears user terminal and resets cursor
